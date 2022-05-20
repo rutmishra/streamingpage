@@ -6,6 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -23,14 +25,19 @@ header{
 
 .nav_bar{
     display: flex;
-    padding: 1%;
+    padding: .5%;
     justify-content: space-between;
     align-items: center;
 }
 
+
 .logo{
     color: #E0BB20;
     text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 205%;
+    /* background-color: #6e6565; */
+    padding-top: .2em;
 }
 .nav_left{
     width: 70%;
@@ -328,6 +335,14 @@ footer{
     .nav_bar{
         padding: 3.5% 0 3.5% .5em;
     }
+    .logo{
+        color: #E0BB20;
+        text-decoration: none;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 155%;
+        /* background-color: #6e6565; */
+        padding-top: .2em;
+    }
     .menuLeft_label{
         margin-left: 1em;
     }
@@ -337,10 +352,11 @@ footer{
     .menuLeft_label{
         display: inline-block;
         position: absolute;
-        left: 9%;
+        left: 17%;
         color: #E0BB20;
         font-weight: 600;
         font-size: large;
+
     }
     .menuLeft_label::after{
         content: '\25BC';
@@ -352,25 +368,26 @@ footer{
     .menuLeft:checked ~ .nav_left{
         display: flex;
         position: absolute;
-        top: 2.2em;
+        top: 4em;
         width: auto;
-        background-color: #6e6565;
+        background-color: #0c0a01e0;
         width: 100%;
         margin-left: -.4em;
+        /* color: #9b7c0d; */
     }
     
     .nav_left ul {
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding: .25em 0em;
-        margin-left: 2.5em;
+        padding: .27em 0em;
+        margin-left: 4em;
         
     }
     .nav_left ul li a{
-        color: black;
+        color: #E0BB20;
         font-weight: 700;
-        font-size: 1.1rem;
+        font-size: .9rem;
     }
    
     .nav_right{
@@ -492,7 +509,7 @@ footer{
         padding: 1em 0;
     }
     .logo{
-        font-size: 1.4rem;
+        font-size: 2.8rem;
     }
     .nav_left{
         display: none;
@@ -500,10 +517,11 @@ footer{
     .menuLeft_label{
         display: inline-block;
         position: absolute;
-        left: 9%;
+        left: 17%;
         color: #E0BB20;
         font-weight: 600;
-        font-size: larger;
+        font-size: xx-large;
+
     }
     .menuLeft_label::after{
         content: '\25BC';
@@ -515,32 +533,33 @@ footer{
     .menuLeft:checked ~ .nav_left{
         display: flex;
         position: absolute;
-        top: 2.2em;
+        top: 6.5em;
         width: auto;
-        background-color: #6e6565;
+        background-color: #0c0a01e0;
         width: 100%;
         margin-left: -.4em;
+        /* color: #9b7c0d; */
     }
     
     .nav_left ul {
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding: .25em 0em;
-        margin-left: 2.5em;
+        padding: .27em 0em;
+        margin-left: 9em;
         
     }
     .nav_left ul li a{
-        color: black;
+        color: #E0BB20;
         font-weight: 700;
-        font-size: 1.1rem;
+        font-size: 1.5rem;
     }
     .nav_right{
         width: 30%;
         /* background-color: white; */
     }
     .nav_right a{
-        font-size: larger;
+        font-size: xx-large;
         /* margin-left: 1em; */
     }
     .main_movie_desc{
