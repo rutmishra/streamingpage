@@ -440,6 +440,7 @@ footer{
         font-size: 1.1rem;
         color: #fff;
         padding: 3% 0;
+        font-family: 'Roboto', sans-serif;
     }
     .movies_container{
         width: 100vw;
@@ -572,6 +573,7 @@ footer{
     .movie_section_header{
         font-size: 1.25rem;
         color: #fff;
+        font-family: 'Roboto', sans-serif;
     }
     .scroller i{
         display: none;
