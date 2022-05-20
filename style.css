@@ -352,7 +352,7 @@ footer{
     .menuLeft_label{
         display: inline-block;
         position: absolute;
-        left: 17%;
+        left: 20%;
         color: #E0BB20;
         font-weight: 600;
         font-size: large;
@@ -368,11 +368,11 @@ footer{
     .menuLeft:checked ~ .nav_left{
         display: flex;
         position: absolute;
-        top: 4em;
+        top: 3.8em;
         width: auto;
         background-color: #0c0a01e0;
         width: 100%;
-        margin-left: -.4em;
+        margin-left: -.5em;
         /* color: #9b7c0d; */
     }
     
